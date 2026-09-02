@@ -1,0 +1,12 @@
+# Ruflo local secrets and runtime data
+.env
+.env.local
+.env.*.local
+.claude-flow/
+
+# Local tool state — machine-specific, not vault content
+.claude/
+.agents/
+.swarm/
+.obsidian/
+.mcp.json
