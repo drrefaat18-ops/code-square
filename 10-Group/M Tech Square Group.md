@@ -26,16 +26,16 @@ Code Square does not exist alone — it is one entity inside the **M Tech Square
 
 ### Entities
 
-| Entity | Domain in the group | Accent colour (from the site CSS) | What we know |
-|---|---|---|---|
-| **M Tech Square** | The parent / "the Universe" | gold `#D5B182` · navy `#001F3F` | Holding brand for the ecosystem. Owns the domain and the corporate site. |
-| **Code Square (CS)** | Technology — software, platforms, AI | **`#A855F7`** purple | The subject of this vault. Built the group website. |
-| **Techno Square** | Education — in-person training | `#FDD017` yellow | Education brand. Has a mascot, **تاتا 🤖**, used as a student journey companion. Its platform + mobile app were built by Code Square. |
-| **Online Techno Square** | Education — online delivery | `#17A2B8` teal | Online arm. Its enrolment form is wired directly into the Techno Square dashboard. Design language: glassmorphism + holographic. |
-| **Digital Square** | Digital marketing | `#00A3B1` teal | Named in the group logo strip. Scope and status `TBD`. |
-| **M Square** | `TBD` | `#1E40AF` blue | An accent token exists in the CSS. Purpose `TBD`. |
-| **M Nature** | Sustainability (inferred from "sustainability" in the group description) | not tokenised | Named in the group logo strip. Scope `TBD`. |
-| *Medical entity* | "medical excellence" appears in the group description with no named entity | — | `TBD` — identify it. Potentially highly relevant given the founder is a pharmacist and healthcare is a candidate beachhead. |
+| Entity                   | Domain in the group                                                        | Accent colour (from the site CSS) | What we know                                                                                                                          |
+| ------------------------ | -------------------------------------------------------------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **M Tech Square**        | The parent / "the Universe"                                                | gold `#D5B182` · navy `#001F3F`   | Holding brand for the ecosystem. Owns the domain and the corporate site.                                                              |
+| **Code Square (CS)**     | Technology — software, platforms, AI                                       | **`#A855F7`** purple              | The subject of this vault. Built the group website.                                                                                   |
+| **Techno Square**        | Education — in-person training                                             | `#FDD017` yellow                  | Education brand. Has a mascot, **تاتا 🤖**, used as a student journey companion. Its platform + mobile app were built by Code Square. |
+| **Online Techno Square** | Education — online delivery                                                | `#17A2B8` teal                    | Online arm. Its enrolment form is wired directly into the Techno Square dashboard. Design language: glassmorphism + holographic.      |
+| **Digital Square**       | Digital marketing                                                          | `#00A3B1` teal                    | Named in the group logo strip. Scope and status `TBD`.                                                                                |
+| **M Square**             | `TBD`                                                                      | `#1E40AF` blue                    | An accent token exists in the CSS. Purpose `TBD`.                                                                                     |
+| **M Nature**             | Sustainability (inferred from "sustainability" in the group description)   | not tokenised                     | Named in the group logo strip. Scope `TBD`.                                                                                           |
+| *Medical entity*         | "medical excellence" appears in the group description with no named entity | —                                 | `TBD` — identify it. Potentially highly relevant given the founder is a pharmacist and healthcare is a candidate beachhead.           |
 
 > The group description names four domains — **technology, education, medical excellence, digital marketing** — plus sustainability in the logo strip. Map each named entity to its domain and close the gaps.
 

@@ -1,6 +1,6 @@
 ---
 date: 2026-09-02
-type: identity
+type: reference
 tags:
   - identity
   - visual-identity
@@ -68,13 +68,13 @@ This note holds the authoritative colour tokens, typography, logo rules, and soc
 
 ### Accessibility notes (proposed — verify before shipping)
 
-| Pair | Approx. ratio | Verdict |
-|---|---|---|
-| `#FFFFFF` on `#001F3F` | ~15.9:1 | ✅ Excellent |
-| `#D5B182` on `#001F3F` | ~7.9:1 | ✅ Passes for body and headings |
-| `#A855F7` on `#001F3F` | ~3.6:1 | ⚠️ **Large text and UI elements only.** Not for body copy or small labels. |
-| `rgba(255,255,255,.55)` on `#001F3F` | ~6.5:1 | ✅ For labels only, not paragraphs |
-| `#FFFFFF` on `#A855F7` | ~3.5:1 | ⚠️ Fails for small text. Use `#001F3F` text on purple buttons instead, or enlarge the type. |
+| Pair                                 | Approx. ratio | Verdict                                                                                     |
+| ------------------------------------ | ------------- | ------------------------------------------------------------------------------------------- |
+| `#FFFFFF` on `#001F3F`               | ~15.9:1       | ✅ Excellent                                                                                 |
+| `#D5B182` on `#001F3F`               | ~7.9:1        | ✅ Passes for body and headings                                                              |
+| `#A855F7` on `#001F3F`               | ~3.6:1        | ⚠️ **Large text and UI elements only.** Not for body copy or small labels.                  |
+| `rgba(255,255,255,.55)` on `#001F3F` | ~6.5:1        | ✅ For labels only, not paragraphs                                                           |
+| `#FFFFFF` on `#A855F7`               | ~3.5:1        | ⚠️ Fails for small text. Use `#001F3F` text on purple buttons instead, or enlarge the type. |
 
 **Rule (proposed):** purple is a *signal*, not a text colour. Never set body copy in `#A855F7`.
 
@@ -136,20 +136,32 @@ Reasons:
 
 ## 4. Logo usage
 
-**What exists (stated):** a `CODE SQUARE` wordmark with the lockup line `YOU IMAGINE ... WE CREATE`. No SVG source file, no variant set, no clear-space specification, and no minimum-size rule is on record — all **TBD**. Do not spend money redesigning the logo ([[Foundation Brief]] §5).
+**What exists (verified — 2026-09-02):** a `CODE SQUARE` wordmark with the lockup line `YOU IMAGINE ... WE CREATE`. The folder `Code Square visual assets/` contains one Illustrator source file, 13 SVG files, and eight PNG exports; [[Brand Assets Library]] records their verified paths, dimensions, and visible contents.
+
+### Verified asset inventory & variants
+
+| Variant | Files | Best for |
+|---|---|---|
+| **Full-colour horizontal logo** | [Asset 4.svg](../Code%20Square%20visual%20assets/SVG/Asset%204.svg) · [Asset 4.png](../Code%20Square%20visual%20assets/3x/Asset%204.png) | SVG has a transparent canvas; PNG has a white background. |
+| **All-white horizontal logo** | [Asset 3.svg](../Code%20Square%20visual%20assets/SVG/Asset%203.svg) · [Asset 3.png](../Code%20Square%20visual%20assets/3x/Asset%203.png) | Use the SVG on dark surfaces; the PNG is white on white. |
+| **All-black horizontal logo** | [Asset 2.svg](../Code%20Square%20visual%20assets/SVG/Asset%202.svg) · [Asset 2.png](../Code%20Square%20visual%20assets/3x/Asset%202.png) | Light backgrounds. |
+| **Coloured `CS` monogram** | [Asset 13 logo.svg](../Code%20Square%20visual%20assets/SVG/SVG/Asset%2013%20logo.svg) | Horizontal canvas, not a ready-made square favicon. |
+| **Square social artwork on navy** | [Asset 8.svg](../Code%20Square%20visual%20assets/SVG/Asset%208.svg) · [Asset 8.png](../Code%20Square%20visual%20assets/3x/Asset%208.png) | Full lockup and tagline; test legibility at the target profile size. |
+
+See [[Brand Assets Library]] for full file inventory and direct links.
 
 ### Rules (proposed)
 
 | Rule | Detail |
 |---|---|
 | **Clear space** | Minimum clear space on all four sides = the cap-height of the letter `C` in `CODE`. Nothing enters that zone. |
-| **Minimum size** | 120px wide on screen; 25mm wide in print. Below that, use a mark-only variant. |
+| **Minimum size** | Proposed: 120px wide on screen; 25mm wide in print. Below that, test the `CS` monogram rather than the full lockup. |
 | **Backgrounds** | Navy `#001F3F` is the default. White and near-black are acceptable. Never place the logo on a photograph without a solid or heavily darkened panel behind it. |
-| **Colour variants needed (TBD — none exist yet)** | (1) Full colour on navy, (2) all-white on dark, (3) all-navy on light, (4) mark-only square for avatars |
+| **Colour variants** | Available: full colour (`Asset 4`), all-white (`Asset 3`), all-black (`Asset 2`), and coloured `CS` monogram (`Asset 13`). `Asset 8` is the full lockup on a navy square. |
 | **Tagline line** | `YOU IMAGINE ... WE CREATE` appears **only inside the logo lockup**. It never becomes a headline, a caption, a post opener, or an email signature line. See [[Brand Voice and Tone]] §6.4. |
 | **Never** | Stretch, skew, rotate, recolour outside the palette, add drop shadows or outer glows, place on a busy background, or recreate the wordmark by typing it in a different font. |
 | **Group lockup** | When Code Square appears alongside M Tech Square, the group mark sits in gold `#D5B182` and CS in purple `#A855F7`. Never both in the same colour. |
-| **Avatar / favicon** | Square mark on navy. Must remain legible at 32×32 px. Currently **TBD** — this is a real gap; the Facebook avatar is the wordmark, which is unreadable at small sizes. |
+| **Avatar / favicon** | Candidate assets exist, but suitability is **TBD**. Test [Asset 8.png](../Code%20Square%20visual%20assets/3x/Asset%208.png) as an avatar and export a square favicon from [Asset 13 logo.svg](../Code%20Square%20visual%20assets/SVG/SVG/Asset%2013%20logo.svg); do not claim legibility until tested at 32×32 px. |
 
 ---
 
@@ -227,7 +239,7 @@ Fixed furniture on every slide: slide counter (`3 / 8`) top-right in `--text-mut
 | **Product screenshots** | The strongest available asset and currently unused on social. Always on a navy panel with a subtle gold border. Real screens only — never a mockup pretending to be a client system. |
 | **3D / Spline scenes** | Genuine craft the company owns and a real differentiator. But the site loads ~7.5 MB of JS for it. Keep 3D as a **hero moment only**, never on every page or in feed creatives. See [[Website and Technical Audit]]. |
 | **Stock photography** | Banned. Handshakes, generic laptops, and smiling offices actively signal low credibility. |
-| **Team photos** | Would be a real asset. None exist — **TBD**. |
+| **Team photos** | Would be a real asset. None were found in the reviewed source set on 2026-09-02; whether any exist elsewhere is **TBD**. |
 | **Glassmorphism** | Belongs to Online Techno Square's visual language. Code Square uses it sparingly, as surfaces only, not as a theme. |
 
 ---
@@ -237,13 +249,13 @@ Fixed furniture on every slide: slide counter (`3 / 8`) top-right in `--text-mut
 | Decision | Status |
 |---|---|
 | Website palette adopted as canonical over the Facebook palette | **Recommended above — awaiting founder approval.** [[Open Questions and Decisions Needed]] |
-| Logo source file (SVG) and variant set | TBD — none on record |
-| Square avatar / favicon mark | TBD — real gap |
+| Logo source file (SVG) and variant set | **Resolved.** One `.ai` file and 13 SVG files catalogued in [[Brand Assets Library]] |
+| Square avatar / favicon mark | **TBD.** Candidate assets exist, but a legibility test and favicon export are still needed. |
 | Whether the `YOU IMAGINE ... WE CREATE` lockup is retained long-term | Proposed: retain in the lockup, demote everywhere else |
 | Licensed weights for Tajawal / Playfair / Syne / Cormorant Garamond | TBD — confirm licensing before print or paid use |
-| Brand asset library location and owner | TBD |
+| Brand asset library location and owner | Location resolved: `Code Square visual assets/`, catalogued in [[Brand Assets Library]]. Owner remains **TBD**. |
 
 ---
 
 ## Related
-[[Foundation Brief]] · [[2026-09-02 - Website Evidence (mtechsquare.com-code-square)]] · [[2026-09-02 - Facebook Page Evidence]] · [[Brand Positioning]] · [[Brand Voice and Tone]] · [[Messaging Framework]] · [[Company Profile]] · [[Website and Technical Audit]] · [[Content Calendar]] · [[Open Questions and Decisions Needed]]
+[[Brand Assets Library]] · [[Foundation Brief]] · [[2026-09-02 - Website Evidence (mtechsquare.com-code-square)]] · [[2026-09-02 - Facebook Page Evidence]] · [[Brand Positioning]] · [[Brand Voice and Tone]] · [[Messaging Framework]] · [[Company Profile]] · [[Website and Technical Audit]] · [[Editorial Calendar - First 90 Days]] · [[Open Questions and Decisions Needed]]

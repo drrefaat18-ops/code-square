@@ -41,7 +41,7 @@ Code Square is a software company in Port Said, Egypt, part of the M Tech Square
 - **[[Open Questions and Decisions Needed]]** — 🔴 the decision register
 
 ### 01-Identity — who we are
-[[Company Profile]] · [[Brand Positioning]] · [[Messaging Framework]] · [[Brand Voice and Tone]] · [[Visual Identity]] · [[Core Values and Operating Principles]]
+[[Company Profile]] · [[Brand Positioning]] · [[Messaging Framework]] · [[Brand Voice and Tone]] · [[Visual Identity]] · [[Brand Assets Library]] · [[Core Values and Operating Principles]]
 
 ### 02-Market — who we sell to
 [[ICP - Ideal Customer Profiles]] · [[Buyer Personas]] · [[Competitive Landscape]] · [[Market Map - Egypt and Gulf]] · [[Beachhead Decision]]
@@ -69,6 +69,9 @@ Code Square is a software company in Port Said, Egypt, part of the M Tech Square
 
 ### 10-Group — the ecosystem
 [[M Tech Square Group]]
+
+### Conversations — حوارات وجلسات استراتيجية
+[[2026-09-02 - خطة التسويق وتقييم خطة الميديا باير]]
 
 ---
 
@@ -99,7 +102,7 @@ Code Square is a software company in Port Said, Egypt, part of the M Tech Square
 | Phase | When | What | Gate |
 |---|---|---|---|
 | **0 — Stop the bleeding** | This week | Renew the TLS certificate. Add prerendering. Add `robots.txt`, `sitemap.xml`, `llms.txt`, page meta. Confirm the contact form delivers and name its owner. | Nothing else starts until the site loads without a warning and renders to a crawler. |
-| **1 — Surface the proof** | Weeks 1–2 | Get client permission. Publish all four case studies **with real numbers**. Link Facebook → website everywhere. | At least two publishable case studies live. |
+| **1 — Surface the proof** | Weeks 1–2 | Publish the two internal case studies with verified evidence. Request written permission before naming either external client or publishing its logo, screenshots, metrics, or quote; use approved anonymised versions until then. Link Facebook → website everywhere. | At least two publishable case studies live, with every claim evidenced. |
 | **2 — Point at one audience** | Weeks 2–4 | Choose the beachhead. Rewrite the Facebook bio, cover, and pinned post for it. Launch the Diagnostic Session with a real booking link. | A stranger can name who Code Square is for in one sentence. |
 | **3 — Install the machine** | Month 2 | Intake form, CRM, response SLA, follow-up cadence, KPI scorecard. | Every enquiry is logged and answered within the SLA. |
 | **4 — Buy attention** | Month 3+ | Paid media, outbound prospecting, partnerships. | Only after 0–3 are done. Spending earlier is burning money. |
@@ -109,7 +112,7 @@ Code Square is a software company in Port Said, Egypt, part of the M Tech Square
 ## ⚠️ Standing rules
 
 - **Never fabricate.** No invented clients, numbers, quotes, or credentials. Unknown → `TBD` + a row in [[Open Questions and Decisions Needed]].
-- **Only four clients exist.** Two are internal, two are external and need publication permission.
+- **Only four projects are documented.** Two are internal; the two external projects need publication permission before the client names or assets are used.
 - **`$19/$49/$99` is mockup art.** Never quote it.
 - **Banned phrases:** أقوى فريق · أفضل شركة · حلول متكاملة · أحدث التقنيات · "Awwwards-tier" · "99.9% uptime" / "SLA Guarantees" (no document exists) · "worldwide".
 - **One idea per creative, max 15 words on the image.**
