@@ -11,9 +11,9 @@ owner: Founder
 
 # 🟪 Code Square — Operations Brain
 
-## For future Claude
+## 🤖 For AI Models (Claude, Codex, Gemini) & Future Sessions
 
-The home page and map of this vault. Start every session here, then read `[[_CLAUDE]]` for the operating rules. This vault was built on 2026-09-02 from two sources of evidence — the Facebook page and the website — and holds the company's full operating system: identity, market, offers, proof, marketing, sales, delivery, operations, and technical infrastructure.
+The home page and map of this vault. Start every session by reading **[[AGENTS]]** (`AGENTS.md`) for the universal operational manual, truth hierarchy, anti-fabrication rules, and "دهاليز" task dispatch matrix. Also review `[[_CLAUDE]]` for specific vault operating standards. This vault was built on 2026-09-02 from two sources of evidence — the Facebook page and the website — and holds the company's full operating system: identity, market, offers, proof, marketing, sales, delivery, operations, and technical infrastructure.
 
 ---
 
@@ -72,6 +72,8 @@ Code Square is a software company in Port Said, Egypt, part of the M Tech Square
 
 ### Conversations — حوارات وجلسات استراتيجية
 [[2026-09-02 - خطة التسويق وتقييم خطة الميديا باير]]
+[[2026-09-05 - تقييم ادعاءات الميديا باير وخطة الإنقاذ المالي صفر ميزانية]]
+[[2026-09-05 - خطة التوفيق الجدلية بين الميديا باير ومجلس الوكلاء]]
 
 ---
 
